@@ -422,6 +422,8 @@ const App = (function(ItemCtrl, StorageCtrl, UICtrl) {
         UICtrl.removeItems();
         // Clear from local storage
         StorageCtrl.clearItemsFromStorage();
+        // Clear input fields
+        UICtrl.clearInput();
         // Hide the list
         UICtrl.hideList();
     }
